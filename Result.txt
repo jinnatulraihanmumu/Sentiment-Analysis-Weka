@@ -1,0 +1,30 @@
+=== Evaluation result ===
+
+Scheme: NaiveBayesMultinomial
+Relation: sentiment-classifier-dataset
+
+=== Summary ===
+
+Correctly Classified Instances         143               95.3333 %
+Incorrectly Classified Instances         7                4.6667 %
+Kappa statistic                          0.93  
+Mean absolute error                      0.283 
+Root mean squared error                  0.3408
+Relative absolute error                 63.6793 %
+Root relative squared error             72.2894 %
+Total Number of Instances              150     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     positive
+                 0.920    0.030    0.939      0.920    0.929      0.895    0.966     0.917     neutral
+                 0.940    0.040    0.922      0.940    0.931      0.896    0.997     0.994     negative
+Weighted Avg.    0.953    0.023    0.953      0.953    0.953      0.930    0.988     0.970     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = positive
+  0 46  4 |  b = neutral
+  0  3 47 |  c = negative
